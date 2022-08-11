@@ -1,10 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Stationlist } from "./components/Stationlist";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h1>City Bike</h1>
+      <Stationlist />
     </div>
   );
 }
